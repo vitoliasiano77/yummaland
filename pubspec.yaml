@@ -1,0 +1,39 @@
+name: yummaland_app # <--- PASTIKAN INI ADA
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl: ^0.20.2
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  http: ^1.2.1 # <--- PASTIKAN INI ADA
+  excel: ^4.0.6 # <--- PASTIKAN INI ADA
+  path_provider: ^2.1.3 # <--- PASTIKAN INI ADA
+  open_file: ^3.3.2 # <--- PASTIKAN INI ADA
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/anak.jpg
+    - assets/images/yumma.png
+    - assets/images/qris.png
+  fonts:
+    - family: Baloo 2
+      fonts:
+        - asset: assets/fonts/Baloo2-Regular.ttf # Pastikan path ini benar
+        - asset: assets/fonts/Baloo2-Bold.ttf    # Pastikan path ini benar
+          weight: 700
