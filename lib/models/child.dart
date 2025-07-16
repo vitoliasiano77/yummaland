@@ -1,10 +1,10 @@
 class Child {
-  final int? id; // Nullable for new child
+  final int? id; 
   final String childName;
   final DateTime playDate;
   final String phoneNumber;
   final int cost;
-  final int? userId; // Nullable for new child
+  final int? userId; 
 
   Child({
     this.id,
